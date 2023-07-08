@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.17'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -19,10 +19,10 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '1.2.3'
+  gem 'uglifier', '2.7.2'
 end
 
-gem 'jquery-rails', '2.0.2'
+gem 'jquery-rails', '3.1.3'
 
 group :production do
 	gem 'pg', '0.12.2'
